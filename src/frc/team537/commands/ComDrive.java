@@ -1,12 +1,15 @@
 package frc.team537.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
+import edu.wpi.first.wpilibj.command.Subsystem;
+import frc.team537.Robot;
 
 
 public class ComDrive extends Command {
     public ComDrive() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
+        requires(Robot.subDrive);
     }
 
 
