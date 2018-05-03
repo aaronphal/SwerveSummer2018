@@ -16,8 +16,8 @@ package frc.team537;
 public class RobotMap 
 {
     public static class Robot {
-        public static final double x = 26.00;
-        public static final double y = 20.70;
+        public static final double length = 26.00;
+        public static final double width = 20.70;
     }
 
     public static class Buttons{
