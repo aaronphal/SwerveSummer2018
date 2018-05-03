@@ -15,6 +15,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.team537.subsystems.SubCubeMinipulator;
 import frc.team537.subsystems.SubDrive;
 import frc.team537.subsystems.SubRamps;
+import frc.team537.subsystems.SwerveDrive;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -29,6 +30,7 @@ public class Robot extends TimedRobot
     public static final SubCubeMinipulator subCubeMinipulator = new SubCubeMinipulator();
     public static final SubRamps subRamps = new SubRamps();
     public static final SubDrive subDrive = new SubDrive();
+    public static final SwerveDrive swerveDrive = new SwerveDrive();
     //public static final ExampleSubsystem exampleSubsystem = new ExampleSubsystem();
     public static OI oi;
 
