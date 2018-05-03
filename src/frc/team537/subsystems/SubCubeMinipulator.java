@@ -3,12 +3,12 @@ package frc.team537.subsystems;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
-import edu.wpi.first.wpilibj.DigitalInput;
-import edu.wpi.first.wpilibj.Timer;
+import edu.wpi.first.wpilibj.*;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.team537.Robot;
 import frc.team537.RobotMap;
+import javafx.util.converter.PercentageStringConverter;
 
 import java.util.TimerTask;
 
@@ -21,6 +21,7 @@ public class SubCubeMinipulator extends Subsystem {
     private TalonSRX inLeft = new TalonSRX(RobotMap.cubeMinipulator.left);
     private DigitalInput topSwitch = new DigitalInput(RobotMap.cubeMinipulator.top);
     private DigitalInput bottomSwitch = new DigitalInput(RobotMap.cubeMinipulator.bottom);
+
 
     private double currentHeight;
     private boolean zero;
